@@ -1,17 +1,24 @@
-# merkleTreeJS
+### MerkleTreeJS
 
-A binary tree also known as merkle tree. Often used in cryptocurrencies and other distributed systems such as Git, Apache Cassandra and more. The tree uses SHA256
+MerkleTreeJS is a powerful binary tree implementation, also known as a Merkle tree. It finds extensive use in various distributed systems like cryptocurrencies, Git, Apache Cassandra, and more. This tree leverages the SHA256 algorithm for its operations.
 
-## Getting Started
-After cloning, run `npm install` in the root directory.
+#### Getting Started
 
+To get started with MerkleTreeJS, follow these steps:
+
+1. Clone the repository.
+2. Navigate to the root directory and run `npm install` to install the necessary dependencies.
+
+#### Usage Example
+
+Here's an example demonstrating how to use MerkleTreeJS:
+
+```javascript
+const leaves = ['a', 'b', 'c'];
+const tree = new MerkleTree(leaves);
+console.log(tree);
 ```
-const leaves = ['a', 'b', 'c']
-const tree = new MerkleTree(leaves)
-console.log(tree)
-```
-Output:
-
+#### Output:
 ```
 MerkleTree {
   leaves: [
@@ -27,3 +34,4 @@ MerkleTree {
   ]
 }
 ```
+If you have any questions or suggestions, feel free to reach out. Happy coding!
